@@ -1,4 +1,5 @@
-require('scrabble.rb')
+require('rspec')
+require('scrabble')
 
 describe("String#scrabble") do
   it("Returns a scrabble score for a letter (upper-case)") do
